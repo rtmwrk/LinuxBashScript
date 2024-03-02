@@ -37,8 +37,8 @@ echo "--------------------------------------------------------------------------
 echo "[$(date)] Процесс создания пользователей/групп начат" | tee -a $fileReport
 
 # Создание единого пользователя
-#ipa user-add $nameMainTester --first=Tester --last=$nameMainTester
-#echo "[$(date)] Единый тестовый пользователь $nameMainTester создан" | tee -a $fileReport
+ipa user-add $nameMainTester --first=Tester --last=$nameMainTester
+echo "[$(date)] Единый тестовый пользователь $nameMainTester создан" | tee -a $fileReport
 
 # Создаем остальных пользователей/группы
 for ((i=1; i<=$amountRootGroups; i++))
