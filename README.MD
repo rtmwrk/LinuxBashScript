@@ -4,7 +4,16 @@
 
 В набор вошли следующие скрипты:
 
+**1. Взаимодействие с доменами Linux**
+
 - [**_adusrgrp.sh_**](./freeIPA//ad_user_group/README.md) - автоматизированное массовое создание и добавление в домен Linux FreeIPA пользователей/групп;
+
+**2. Каталоги/файлы в Linux**
+
+- [**_create_big_file.sh_**](./file_processing/create_big_file/README.md) - автоматизированное массовое создание и добавление в домен Linux FreeIPA пользователей/групп;
+
+**3. Работа с логами в Linux**
+
 - [**_clear_log.sh_**](./logs_processing/clear_logs/README.md) - продвинутая очистка журналов служб ОС.
 
 ---
