@@ -12,6 +12,7 @@
 
 - [**_create_big_file.sh_**](./file_processing/create_big_file/README.md) - создание файла заданного размера, который состоит из повторяющейся тестовой символьной последовательности;
 - [**_create_mach_files.sh_**](./file_processing/create_mach_files/README.md) - создание заданного количества файлов, состоящих из тестовой символьной последовательности;
+- [**_create_dir_ier.sh_**](./file_processing/create_dir_ier/README.md) - создание вложенных друг в друга каталогов с заданной глубиной вложенности;
 
 **3. Работа с логами в Linux**
 
