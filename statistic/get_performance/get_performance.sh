@@ -34,9 +34,9 @@ printf "________\t________\n"
 while ! read -s -n 1 -t $interval
 do
   # --- Нагрузка на CPU ---
-  mpstat 1 1 | awk '/Среднее:/ {printf("%7.2f%%", 100 - $NF)}'
+  mpstat 1 1 | awk '/Среднее:/ {printf("%7.2f%%", 100 - $NF)}' || printError
   # --- Загрузка RAM ---
-  free --mega | awk '/Mem:/ {printf("\t%7.2f%%\n", ( $2 - $7 ) / $2 * 100 )}'
+  free --mega | awk '/Mem:/ {printf("\t%7.2f%%\n", ( $2 - $7 ) / $2 * 100 )}' || printError
 done
 
 # --- Выводим сообщение о завершении работы скрипта ---

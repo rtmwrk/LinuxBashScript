@@ -10,11 +10,11 @@
 
 - [**_adusrgrp.sh_**](./freeIPA//ad_user_group/README.md) - массовое создание и добавление в домен Linux FreeIPA пользователей/групп.
 
-  1.2 Работа с журналами:
+1.2 Работа с журналами:
 
 - [**_clear_log.sh_**](./logs_processing/clear_logs/README.md) - продвинутая очистка журналов служб ОС.
 
-  1.3 Мониторинг загрузки ресурсов ПК:
+1.3 Мониторинг загрузки ресурсов ПК:
 
 - [**_get_performance.sh_**](./statistic/get_performance/README.md) - мониторинг нагрузки на процессор(ы) и ОЗУ.
 
