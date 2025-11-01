@@ -20,6 +20,8 @@
 
 - [**_get_performance.sh_**](./statistic/get_performance/README.md) - мониторинг нагрузки на процессор(ы) и ОЗУ;
 
+- [**_get_top_proc.sh_**](./statistic/get_top_proc/README.md) - мониторинг топ-10 процессов, загружающих систему (CPU, Mem);
+
 - [**_get_use_space.sh_**](./statistic/get_use_space/README.md) - мониторинг объемов домашних каталогов локальных пользователей;
 
 - [**_get_free_space.sh_**](./statistic/get_free_space/README.md) - мониторинг объема занятого дискового пространства, вывод предупреждения при превышении заданного порогового значения.
