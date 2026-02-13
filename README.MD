@@ -12,7 +12,7 @@
 
 - [**_get_users.sh_**](./user/get_users/README.md) - вывод отчета о локальных пользователях системы.
 
-- [**_get_ssh_failed.sh_**](./user/get_ssh_failed/README.md) - анализ неудачных попыток SSH-входов.
+- [**_get_ssh_failed.sh_**](./statistic/get_ssh_failed/README.md) - анализ неудачных попыток SSH-входов.
 
 1.2 Работа с журналами:
 
