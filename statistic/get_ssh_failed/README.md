@@ -1,4 +1,4 @@
-### "[get_ssh_failed.sh](./get_use_space.sh)" - анализ логов на предмет неудачных попыток SSH-входов
+### "[get_ssh_failed.sh](./get_ssh_failed.sh)" - анализ логов на предмет неудачных попыток SSH-входов
 
 ---
 
