@@ -8,17 +8,21 @@
 
 1.1 Манипуляции с пользователями:
 
-- [**_adusrgrp.sh_**](./freeIPA/ad_user_group/README.md) - массовое создание и добавление в домен Linux FreeIPA пользователей/групп.
+- [**_adusrgrp.sh_**](./freeIPA/ad_user_group/README.md) - пакетное создание доменных Linux FreeIPA пользователей/групп.
 
-- [**_get_users.sh_**](./user/get_users/README.md) - вывод отчета о локальных пользователях системы.
+- [**_create_local_users.sh_**](./user/create_local_users/README.md) - пакетное создание локальных пользователей.
 
 - [**_get_ssh_failed.sh_**](./statistic/get_ssh_failed/README.md) - анализ неудачных попыток SSH-входов.
 
-1.2 Работа с журналами:
+1.2 Безопасность:
 
-- [**_clear_log.sh_**](./logs_processing/clear_logs/README.md) - продвинутая очистка журналов служб ОС.
+- [**_get_users.sh_**](./user/get_users/README.md) - вывод отчета о локальных пользователях системы.
 
-1.3 Мониторинг загрузки ресурсов ПК:
+1.3 Сервисные задачи:
+
+- [**_clear_log.sh_**](./logs_processing/clear_logs/README.md) - пакетное удаление журналов служб ОС.
+
+1.4 Мониторинг загрузки ресурсов ПК:
 
 - [**_get_performance.sh_**](./statistic/get_performance/README.md) - мониторинг нагрузки на процессор(ы) и ОЗУ;
 
@@ -30,7 +34,7 @@
 
 - [**_get_free_space.sh_**](./statistic/get_free_space/README.md) - мониторинг объема занятого дискового пространства, вывод предупреждения при превышении заданного порогового значения.
 
-1.4 Операции в сети ПК:
+1.5 Операции в сети ПК:
 
 - [**_ping_net.sh_**](./host/ping_net/README.md) - анализ доступности хостов заданной сети.
 
