@@ -12,11 +12,11 @@
 
 - [**_create_local_users.sh_**](./user/create_local_users/README.md) - пакетное создание локальных пользователей.
 
-- [**_get_ssh_failed.sh_**](./statistic/get_ssh_failed/README.md) - анализ неудачных попыток SSH-входов.
+- [**_get_users.sh_**](./user/get_users/README.md) - вывод отчета о локальных пользователях системы.
 
 1.2 Безопасность:
 
-- [**_get_users.sh_**](./user/get_users/README.md) - вывод отчета о локальных пользователях системы.
+- [**_get_ssh_failed.sh_**](./statistic/get_ssh_failed/README.md) - анализ неудачных попыток SSH-входов.
 
 1.3 Сервисные задачи:
 
